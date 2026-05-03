@@ -1,0 +1,23 @@
+{
+  "skill_name": "release-notes-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate release notes for the last 10 commits in /Users/souravdey/Projects/backend",
+      "expected_output": "A markdown and docx file with categorized changes (fixes, features, etc.) from the last 10 commits",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "What's new in the backend repo at /Users/souravdey/Projects/backend? Create a changelog for the changes since HEAD~15",
+      "expected_output": "Changelog with sections for different change types, affected modules, and contributor list",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a release doc for /Users/souravdey/Projects/backend comparing the last 20 commits. I need to see which SDKs and modules were affected.",
+      "expected_output": "Detailed release notes with component/SDK breakdown and categorized changes in both md and docx format",
+      "files": []
+    }
+  ]
+}

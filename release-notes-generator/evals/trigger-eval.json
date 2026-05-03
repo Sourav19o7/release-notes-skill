@@ -1,0 +1,82 @@
+[
+  {
+    "query": "I need to prepare release notes for our sprint that's ending tomorrow. We have about 15 PRs merged into main since the last release tag v2.3.1",
+    "should_trigger": true
+  },
+  {
+    "query": "what's changed in the backend repo since last week? my manager wants a summary of all the commits for our standup",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you generate a changelog for the SDK package? We're pushing version 3.0.0 to npm and need documentation of breaking changes",
+    "should_trigger": true
+  },
+  {
+    "query": "We have a TOPS compliant release going out to JioMart next week. I need the full 43-column spreadsheet format with sign-offs and deployment plans",
+    "should_trigger": true
+  },
+  {
+    "query": "create a release doc showing which modules and SDKs were affected by the analytics migration work - need this for the product team",
+    "should_trigger": true
+  },
+  {
+    "query": "i merged PR #816 and #811 yesterday, can you write up whats new for our internal wiki? include the authors and any breaking changes",
+    "should_trigger": true
+  },
+  {
+    "query": "Need to document version notes for the app store submission. What features and bug fixes went into builds/v4.2.0?",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare an enterprise release note with RCA documentation for the subscription fix. This is for RIL compliance - need dev and QA sign-off columns",
+    "should_trigger": true
+  },
+  {
+    "query": "summarize the git history between feature/amplitude-setup and main into a formatted document I can share with stakeholders",
+    "should_trigger": true
+  },
+  {
+    "query": "what's the deployment plan look like for thursday? we need the rollback steps documented before TOPS will approve",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me write a README.md for this new utility library I'm building?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to debug why my git push is failing with permission denied error",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me set up GitHub Actions CI/CD pipeline for automated testing",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you review this pull request and suggest improvements to the code quality?",
+    "should_trigger": false
+  },
+  {
+    "query": "I want to create a new branch called feature/user-auth and start working on login functionality",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I resolve merge conflicts in package.json? I've got conflicts from two different PRs",
+    "should_trigger": false
+  },
+  {
+    "query": "Write unit tests for the CustomerService class that covers the getSubscription method",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to refactor this function to be more performant - it's taking too long with large datasets",
+    "should_trigger": false
+  },
+  {
+    "query": "Set up a new Express.js API endpoint for handling webhook callbacks from Stripe",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you explain how git rebase works compared to git merge? I'm confused about when to use each",
+    "should_trigger": false
+  }
+]
